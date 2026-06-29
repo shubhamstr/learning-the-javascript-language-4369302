@@ -9,11 +9,12 @@ var pageNames = [
   "Contact Us",
   "JavaScript Playground",
   "News",
-  "Blog"
+  "Blog",
 ];
 for (i = 0; i < pageNames.length; i += 1) {
   if (document.title === pageNames[i]) {
     console.log("We ARE here: " + pageNames[i]);
+    break;
   } else {
     console.log("We are not here: " + pageNames[i]);
   }
@@ -26,7 +27,7 @@ var pageNames = [
   "Contact Us",
   "JavaScript Playground",
   "News",
-  "Blog"
+  "Blog",
 ];
 for (i = 0; i < pageNames.length; i += 1) {
   var currentPageTitle = pageNames[i];
